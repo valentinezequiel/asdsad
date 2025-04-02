@@ -18,7 +18,7 @@ flowchart TD
     
 ```
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'background': '#ffffff', 'lineColor': '#333333', 'fontSize': '48px' }}}%%
+%%{init: {'themeVariables': { 'fontSize': '48px' }}}%%
 flowchart TD
     S[System] --> FR2[FR-2: Process sensor alerts]
     S --> FR5[FR-5: Store transaction history]
