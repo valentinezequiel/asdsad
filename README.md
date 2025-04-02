@@ -1,5 +1,12 @@
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'background': '#ffffff', 'lineColor': '#333333', 'fontSize': '48px' }}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 
+  'background': '#000000',       /* dark background */
+  'lineColor': '#ffffff',        /* default line color */
+  'defaultLinkColor': '#ffffff', /* edge/link color */
+  'primaryBorderColor': '#ffffff', /* node borders */
+  'secondaryBorderColor': '#ffffff',
+  'fontSize': '48px'
+}}}%%
 flowchart TD
     A[System Administrator] --> FR6[FR-6: Authenticate with roles]
     A --> FR1[FR-1: Generate/prioritize orders]
